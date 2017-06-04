@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  
+  	<nav class="navbar navbar-inverse navbar-static-top">
+	<div class="container">
+	<input type="text" id="sch" placeholder="Search" />
+    <button type="submit"  id="btn">Search</button>
+	
+	&emsp;&emsp;&emsp;
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">new topic</button>
+
+	</div>
+	</nav>
+	
+	
+  <br>
+
+ <div class="jumbotron">
+  <div id="list1"><center>
+  <p><div id="name"><h3>Himanshu</h3> </div></p>
+  <p><div id="class"><h3>14</h3> </div></p>
+  <p><div id="college"><h3>kgp</h3> </div></p>
+  <p><div id="rkm"><h3>rkm</h3> </div></p></center>
+  </div>
+  </div>
+  
+  
+  <div class="container">
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <form>
+  <div class="form-group">
+    <label for="newname">Name</label>
+    <input type="text" class="form-control" id="newname">
+  </div>
+  <div class="form-group">
+    <label for="firstmessage">First Message</label>
+    <input type="text" class="form-control" id="firstmessage">
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  </div><div class="modal-footer">
+  <button type="submit" class="btn btn-default" id="newdiv">Submit</button>
+
+        
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div></form>
+      
+    </div>
+  </div>
+  
+</div>
+  
+  
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+#fake_textarea {
+  width: %;
+  height: 150px;
+  border: 2px solid grey;
+}
+button{
+  font-weigth:bold;
+}
+
+[contentEditable=true]:empty:not(:focus):before{
+  content:attr(place-text);
+  color:grey;
+  height:50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navbar{
+	padding:10px;
+}
+
+#name{
+	padding-left:20px:
+}
